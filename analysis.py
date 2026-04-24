@@ -33,7 +33,7 @@ import seaborn as sns
 # Option B: leave BASE = None and the script uses relative paths (data/raw/).
 #   Use Option B only if your notebook is in the project root folder.
 
-BASE = r'C:\Users\giaco\Downloads\Data fitbit\mturkfitbit_export_4.12.16-5.12.16\Fitabase Data 4.12.16-5.12.16'
+BASE = # your folder containing the CSV files
 
 if BASE:
     DATA_DIR   = BASE + '\\'
